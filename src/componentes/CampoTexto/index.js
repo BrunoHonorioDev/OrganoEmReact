@@ -4,7 +4,7 @@ const CampoTexto = (props) => {
 
     const placeholderModificada = `${props.placeholder}...` 
 
-    let valor = 'Guilherme Silveira'
+    let valor = 'Bruno Honório'
 
     const aoDigitado = (evento) => {
         valor = evento.target.value
